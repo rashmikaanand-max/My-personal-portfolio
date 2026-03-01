@@ -4,79 +4,91 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Homepage clone</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>My portfolio</title>
 </head>
 <body>
-   <div class="header">
-  <div id="gmail"><a href="#">Gmail</a></div>
-  <div id="images"><a href="#">Images</a></div>
-  <div id="appsicon">
-    <a href="#"><img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Web%20Development/Basic/Google%20Clone/images/googleIcon.jpg?raw=true" alt="appsicon" width="30"></a>
-  </div>
-  <div id="myicon">
-    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="accounticon" width="30" height="30"></a>
-  </div>
-</div>
+  <header class="topbar">
+    <nav class="nav">
+      <a class="brand" href="home"><strong>MY PROFILE</strong></a>
+      <ul class="menu">
+        <li><a href="#about">About me</a></li>
+        <li><a href="#city">My city</a></li>
+        <li><a href="#photos">gallery</a></li>
+        <li><a href="#sports">my favourite sports</a></li>
+        <li><a href="#book">My favourite book</a></li>
+        <li><a href="#message">My message</a></li>
+      </ul>
+    </nav>
+  </header>
   
+  <main class="container">
+ 
   
-<!--   Main body section:Google logo -->
-<div id="mainbody">
-  <img src="https://github.com/Kushal997-das/Project-Guidance/blob/main/Web%20Development/Basic/Google%20Clone/images/googleLogo.jpg?raw=true" alt="google logo"></div>
+  <section id="home" class="card">
+    <h1>Welcome to my profile</h1>
+    </section>
     
-<!--     input section -->
-  <div id="inputsection">
-           <div id="takeinput">
-             <div id="searchicon">
-               <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg" alt="search" width="20">
-             </div>
-             <input type="text">
-             
-<!--              Voice search icon -->
-             <div id="voiceicon">
-               <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg" alt="voice" width="30"></div>
-<!--              Search by image icon -->
-             <div id="imagesearchicon">
-               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRntfCv8G-csd8MndmoxyTdoXqqQocwkCzGVA&s" alt="imagesearch" width="25">
-             </div>
-             </div>
-             </div>
-             
-<!--   Buttons -->
-  <div id="differentbuttons">
-    <button>Google Search</button>
-    <button>im Feeling Lucky</button>
+    <section id="about" class="card">
+      <h2>About me</h2>
+      <img
+        src="https://mentormeright.in/images/students_services.png"
+        alt="Smiling school kid with backpack"
+        class="avatar"
+      />
+      Hi! My name is <strong>Rashmika</strong>. I’m <strong>15 years old</strong> and I study in
+      <strong>Grade 10</strong>. I enjoy <strong>reading books</strong>, <strong>drawing</strong>,
+      and playing <strong>guitar.</strong>
+      
+      <section id="city" class="card">
+        <h2>My city</h2>
+        <p> I live in <strong>Singapore</strong>. My city is known for <strong>its greenery and modern buildings.</strong>
+          Famous landmarks include Marina Bay Sands, the Singapore River and Gardens By the Bay</p>
+      </section>
+         <section id="photos" class="card">
+  <h2>GALLERY</h2>
+  <div class="gallery">
+    <img src="https://picsum.photos/id/1011/300/200" alt="Gallery Image 1" />
+    <img src="https://picsum.photos/id/1012/300/200" alt="Gallery Image 2" />
+    <img src="https://picsum.photos/id/1015/300/200" alt="Gallery Image 3" />
+    <img src="https://picsum.photos/id/1016/300/200" alt="Gallery Image 4" />
+    <img src="https://picsum.photos/id/1018/300/200" alt="Gallery Image 5" />
+    <img src="https://picsum.photos/id/1020/300/200" alt="Gallery Image 6" />
+    <img src="https://picsum.photos/id/1024/300/200" alt="Gallery Image 7" />
+    <img src="https://picsum.photos/id/1025/300/200" alt="Gallery Image 8" />
+    <img src="https://picsum.photos/id/1027/300/200" alt="Gallery Image 9" />
+    <img src="https://picsum.photos/id/1031/300/200" alt="Gallery Image 10" />
   </div>
-  <!-- Language Section        -->
-  <!-- ======================= -->
-  <div id="langSelect">
-    Google offered in: 
-    <a href="#">हिन्दी</a>
-    <a href="#">বাংলা</a>
-    <a href="#">తెలుగు</a>
-    <a href="#">मराठी</a>
-    <a href="#">தமிழ்</a>
-    <a href="#">ગુજરાતી</a>
-    <a href="#">ಕನ್ನಡ</a>
-    <a href="#">മലയാളം</a>
-    <a href="#">ਪੰਜਾਬੀ</a>
-  </div>
-  <div id="footer">
-    <div id="upper">india</div>
-    <div id="lower">
-      <div id="leftside">
-        <a href="#">About</a>
-        <a href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">How Search Works</a>
-      </div>
-        <div id="rightside">
-          <a href="#">Privacy</a>
-          <a href="#">Terms</a>
-          <a href="#">Settings</a>
-        </div>
-      </div>
-    </div>
-          
+</section>
+      <section id="sports" class="card">
+        <h2>My favourite sport</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIw2jU0vuOOFEVF_WptViin3A6H9Y6cq7jGg&s" alt="Football" class="wide-image"/>
+        <p>My favourite sport is <strong>Football</strong>. To play football, you need:</p>
+        <ul type="square">
+          <li>Football</l>
+        <li>Football boots or shoes</li>
+        <li>Field</li>
+        <li>A few players</li>
+        </ul>
+    </section>
+              <section id="book" class="card">
+                <mg src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800" alt="stack of books" class="wide-image"/>
+                <p>My favourite book is <em>Harry Potter and the Prisoner of Azkaban</em> by <strong>J.K Rowling</strong>.
+                  I love reading fantasy books with my friends.</p>
+                <h3>Other books I like</h3>
+                <ul>
+                  <li><strong>Atomic habits</strong></li>
+                  <li><strong>The Paper Menagerie </strong></li>
+                  <li><strong>Lessons in Chemistry</strong></li>
+                </ul>
+    </section>
+    <section id="message" class="card">
+    <h2>My message</h2>
+      <p>You only live once</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Made by Rashmika</p>
+    </footer>
+    
 </body>
 </html>
